@@ -5,5 +5,5 @@
 #   action   :install
 # end
 
-
+Chef::Log.info('******** Doing some Zookeeper *************')
 zookeeper '3.4.8'
